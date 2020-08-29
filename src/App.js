@@ -30,11 +30,13 @@ function App() {
   ];
   
   return (
-          <div>
+          <div className='container-fluid'>
             <h1 className='text-center jumbotron'>Recharts Practice Project</h1>
             <div className="row">
-                <div className="col-md-6 mx-auto mt-4">
+                <div className="col-md-6 mx-auto my-4">
+                  <h2 className='text-center'>Simple Line Chart Example</h2><hr></hr>
                 <LineChart
+                          className='d-block mx-auto'
                           width={500}
                           height={300}
                           data={data}
